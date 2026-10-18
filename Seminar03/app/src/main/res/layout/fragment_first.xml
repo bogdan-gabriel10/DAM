@@ -13,9 +13,31 @@
         android:inputType="textPersonName"
         android:minHeight="48dp" />
 
+    <EditText
+        android:id="@+id/etA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="numar 1"
+        android:inputType="numberDecimal|numberSigned"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="numar 2"
+        android:inputType="numberDecimal|numberSigned"
+        android:minHeight="48dp" />
+
     <Button
         android:id="@+id/btnSend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_send" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculeaza suma" />
 </LinearLayout>

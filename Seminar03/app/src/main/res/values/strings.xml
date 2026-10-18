@@ -4,4 +4,10 @@
     <string name="btn_send">Trimite</string>
     <string name="btn_back">Inapoi</string>
     <string name="greeting">Salut, %1$s!</string>
+    <string name="hint_suma">suma este</string>
+    <string name="rezultat_suma">suma este %1$s</string>
+    <string name="rezultat_produs">produsul este %1$s</string>
+    <string name="err_numere">Introdu doua numere valide</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
